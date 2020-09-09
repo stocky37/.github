@@ -1,0 +1,83 @@
+repository:
+  default_branch: main
+  private: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  has_downloads: false
+  allow_merge_commit: false 
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  # delete_branch_on_merge: true
+
+labels:
+  # default GitHub labels to keep
+  - name: duplicate
+    description: This issue or pull request already exists
+    color: 'cfd3d7'
+
+  - name: invalid
+    description: This doesn't seem right
+    color: 'e4e669'
+
+  - name: question
+    description: Further information is requested
+    color: 'd876e3'
+
+  - name: wontfix
+    description: This will not be worked on
+    color: 'ffffff'
+
+  # commit / issue types
+  - name: 'bug/fix'
+    description: A bug or bug fix
+    color: 'd73a4a'
+    oldname: bug
+
+  - name: 'build'
+    description: Changes that affect the build system or external dependencies
+    color: '0052cc'
+
+  - name: 'chore'
+    description: A change that does not deal with the application code, nor fits into other ticket types
+    color: '0052cc'
+
+  - name: 'ci'
+    description: A change to CI config or scripts
+    color: '0052cc'
+
+  - name: 'docs'
+    description: Improvements or additions to documentation
+    color: '0052cc'
+    oldname: documentation
+
+  - name: 'feat'
+    description: A new feature
+    color: '0052cc'
+    oldname: enhancement
+
+  - name: 'refactor'
+    description: A code change that neither fixes a bug nor adds a feature
+    color: '0052cc'
+
+  - name: 'style'
+    description: 'Changes that do not affect the function of the code (white-space, formatting, etc)'
+    color: '0052cc'
+
+  - name: 'test'
+    description: Adding missing tests or correcting existing tests
+    color: '0052cc'
+
+branches:
+  - name: main
+    protection:
+      # https://docs.github.com/en/rest/reference/repos#update-branch-protection
+      required_status_checks:
+        strict: true
+        contexts: []
+      enforce_admins: true
+      required_pull_request_reviews: null
+      restrictions: null
+      required_linear_history: true
+      allow_force_pushes: true
+      allow_deletions: false
