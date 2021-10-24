@@ -48,8 +48,8 @@ labels:
     description: Changes to CI configuration files or scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
     color: '0052cc'
     
-  - name: deploy
-    description: Changes to deployment or deployment configuration
+  - name: ops
+    description: Changes that affect operational components
     color: '0052cc'
 
   - name: docs
