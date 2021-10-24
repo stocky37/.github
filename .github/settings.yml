@@ -32,20 +32,20 @@ labels:
 
   # commit / issue types
   - name: 'bug'
-    description: A bug or bug fix
+    description: A bug
     color: 'd73a4a'
-    oldname: bug
+    oldname: bug/fix
 
   - name: 'build'
     description: Changes that affect the build system or external dependencies
     color: '0052cc'
 
-  - name: 'chore'
-    description: A change that does not deal with the application code, nor fits into other ticket types
-    color: '0052cc'
-
   - name: 'ci'
-    description: A change to CI config or scripts
+    description: Changes to CI config or scripts
+    color: '0052cc'
+    
+  - name: 'deploy'
+    description: Changes to deployment or deployment configuration
     color: '0052cc'
 
   - name: 'docs'
@@ -57,13 +57,13 @@ labels:
     description: A new feature
     color: '0052cc'
     oldname: enhancement
+    
+  - name: 'perf'
+    description: A code change that improves performance'
+    color: '0052cc'
 
   - name: 'refactor'
     description: A code change that neither fixes a bug nor adds a feature
-    color: '0052cc'
-
-  - name: 'style'
-    description: 'Changes that do not affect the function of the code (white-space, formatting, etc)'
     color: '0052cc'
 
   - name: 'test'
