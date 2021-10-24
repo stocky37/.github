@@ -75,6 +75,10 @@ labels:
     description: A code change that neither fixes a bug nor adds a feature
     color: '0052cc'
     
+  - name: revert
+    description: Reverts a previous commit
+    color: '0052cc'
+    
   - name: style
     description: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
     color: '0052cc'
