@@ -68,7 +68,7 @@ labels:
     color: '0052cc'
     
   - name: perf
-    description: A code change that improves performance'
+    description: A code change that improves performance
     color: '0052cc'
 
   - name: refactor
