@@ -47,10 +47,6 @@ labels:
   - name: ci
     description: Changes to CI configuration files or scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
     color: '0052cc'
-    
-  - name: ops
-    description: Changes that affect operational components
-    color: '0052cc'
 
   - name: docs
     description: Documentation only changes
@@ -66,6 +62,10 @@ labels:
     description: A bug
     color: 'd73a4a'
     oldname: bug
+    
+  - name: ops
+    description: Changes that affect operational components
+    color: '0052cc'
     
   - name: perf
     description: A code change that improves performance'
