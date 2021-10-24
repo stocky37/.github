@@ -29,7 +29,7 @@ labels:
     color: 'ffffff'
 
   # commit / issue types
-  - name: 'bug/fix'
+  - name: 'bug'
     description: A bug or bug fix
     color: 'd73a4a'
     oldname: bug
