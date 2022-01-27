@@ -37,7 +37,7 @@ labels:
     oldname: bug
 
   - name: build
-    description: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+    description: Changes that affect the build system or external dependencies
     color: 'D41E91'
     
   - name: chore
