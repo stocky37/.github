@@ -41,7 +41,7 @@ labels:
     color: 'D41E91'
     
   - name: chore
-    description: "Changes that don't fit into any other type"
+    description: A change that does not deal with the application code, nor fits into other ticket types
     color: '0B4491'
 
   - name: ci
