@@ -38,19 +38,15 @@ labels:
 
   - name: build
     description: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-    color: '0052cc'
-    
-  - name: chore
-    description: "Other changes that don't modify src or test files"
-    color: '0052cc'
+    color: 'D41E91'
 
   - name: ci
     description: Changes to CI configuration files or scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-    color: '0052cc'
+    color: '0D5C5D'
 
   - name: docs
     description: Documentation only changes
-    color: '0052cc'
+    color: '666666'
     oldname: documentation
 
   - name: feat
@@ -59,33 +55,24 @@ labels:
     oldname: enhancement
     
   - name: fix
-    description: A bug
+    description: A bug fix
     color: 'd73a4a'
-    oldname: bug
-    
-  - name: ops
-    description: Changes that affect operational components
-    color: '0052cc'
     
   - name: perf
     description: A code change that improves performance
-    color: '0052cc'
+    color: 'E6D835'
 
   - name: refactor
     description: A code change that neither fixes a bug nor adds a feature
-    color: '0052cc'
-    
-  - name: revert
-    description: Reverts a previous commit
-    color: '0052cc'
+    color: '5000A9'
     
   - name: style
     description: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-    color: '0052cc'
+    color: '1EBCD4'
 
   - name: test
     description: Adding missing tests or correcting existing tests
-    color: '0052cc'
+    color: '2BF535'
 
 branches:
   - name: main
