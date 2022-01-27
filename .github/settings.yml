@@ -39,6 +39,10 @@ labels:
   - name: build
     description: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
     color: 'D41E91'
+    
+  - name: chore
+    description: "Changes that don't fit into any other type"
+    color: '0B4491'
 
   - name: ci
     description: Changes to CI configuration files or scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
