@@ -60,7 +60,7 @@ labels:
     
   - name: perf
     description: A code change that improves performance
-    color: 'E6D835'
+    color: '903035'
 
   - name: refactor
     description: A code change that neither fixes a bug nor adds a feature
