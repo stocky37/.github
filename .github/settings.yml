@@ -50,7 +50,7 @@ labels:
 
   - name: documentation
     new_name: docs
-    description: Changes to documentation
+    description: Improvements or additions to documentation
     color: '666666'
 
   - name: enhancement
