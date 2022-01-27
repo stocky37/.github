@@ -32,9 +32,9 @@ labels:
 
   # commit / issue types
   - name: bug
-    description: A bug
+    new_name: bug/fix
+    description: A bug or bug fix
     color: 'd73a4a'
-    oldname: bug
 
   - name: build
     description: Changes that affect the build system or external dependencies
@@ -48,19 +48,15 @@ labels:
     description: Changes to CI configuration files or scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
     color: '0D5C5D'
 
-  - name: docs
-    description: Documentation only changes
+  - name: documentation
+    new_name: docs
+    description: Changes to documentation
     color: '666666'
-    oldname: documentation
 
-  - name: feat
+  - name: enhancement
+    new_name: feat
     description: A new feature
     color: '0052cc'
-    oldname: enhancement
-    
-  - name: fix
-    description: A bug fix
-    color: 'd73a4a'
     
   - name: perf
     description: A code change that improves performance
